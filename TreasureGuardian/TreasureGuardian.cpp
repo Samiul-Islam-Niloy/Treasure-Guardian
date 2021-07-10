@@ -1,13 +1,16 @@
 /*
-Treasure Guardian
-A single player 2D action-adventure game.
+	Treasure Guardian
+	A single player 2D action-adventure game.
 
-Version: 2.5.0
+	Version: 2.5.0
 
-Original Authors:
-Robin Rezwan
-Samiul Islam Niloy
-Al Noman Limon
+	Original Authors:
+
+	Robin Rezwan
+	Samiul Islam Niloy
+	Al Noman Limon
+
+	Project GitHub: http://github.com/robinrezwan/TreasureGuardian
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -286,6 +289,13 @@ void iMouse(int button, int state, int mx, int my)
 					flying_player.x = 160;
 					flying_player.y = 520;
 
+					jump = false;
+					jumping = false;
+					jumping_height = 0;
+
+					intro_player.condition = 0;
+					ground_player.condition = 0;
+
 					game_over = false;
 					player_rank = 0;
 					game_over_index = 3;
@@ -456,6 +466,9 @@ void iKeyboard(unsigned char key)
 				show_gift = 0;
 				menu_option = 6;
 				game_over = false;
+
+				shield_count = 0;
+				active_shield = false;
 
 				flying_player.x = 160;
 				flying_player.y = 520;
@@ -665,6 +678,8 @@ void iSpecialKeyboard(unsigned char key)
 			ground_player.score = 0;
 			ground_player.health = 100;
 			player_distance = 0;
+			shield_count = 0;
+			active_shield = false;
 			gift_taken = false;
 
 			intro_player.x = 160;
@@ -674,6 +689,13 @@ void iSpecialKeyboard(unsigned char key)
 
 			flying_player.x = 160;
 			flying_player.y = 520;
+
+			jump = false;
+			jumping = false;
+			jumping_height = 0;
+
+			intro_player.condition = 0;
+			ground_player.condition = 0;
 
 			goblin.reset(1390, 662, true, 24, 0);
 
