@@ -9,13 +9,13 @@ Ahsanullah University of Science and Technology, Bangladesh
 
 ## Screenshots:
 
-<a href="https://youtu.be/euuJ24cfsG0"><img src="/Screenshots/treasure_guardian_1.jpg" width="600px"/></a>
+![treasure_guardian_1](https://user-images.githubusercontent.com/42870024/125170574-67c04380-e1d1-11eb-8714-ace61fd49539.jpg)
 
-<a href="https://youtu.be/euuJ24cfsG0"><img src="/Screenshots/treasure_guardian_2.jpg" width="600px"/></a>
+![treasure_guardian_2](https://user-images.githubusercontent.com/42870024/125170592-80305e00-e1d1-11eb-8734-a5a8930c66f2.jpg)
 
-<a href="https://youtu.be/euuJ24cfsG0"><img src="/Screenshots/treasure_guardian_3.jpg" width="600px"/></a>
+![treasure_guardian_3](https://user-images.githubusercontent.com/42870024/125170604-8cb4b680-e1d1-11eb-84bb-9c76fb3616d1.jpg)
 
-<a href="https://youtu.be/euuJ24cfsG0"><img src="/Screenshots/treasure_guardian_4.jpg" width="600px"/></a>
+![treasure_guardian_4](https://user-images.githubusercontent.com/42870024/125170608-92120100-e1d1-11eb-85a0-9f4aceee7bc6.jpg)
 
 ## Project Information:
 
